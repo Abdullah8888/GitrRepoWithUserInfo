@@ -3,8 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>ApiKey</key>
-	<string>$(API_KEY)</string>
+	<string></string>
 	<key>BaseUrl</key>
-	<string>$(BASE_URL)</string>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Manrope-Bold.tff</string>
+		<string>Manrope-ExtraBold.tff</string>
+		<string>Manrope-ExtraLight.tff</string>
+		<string>Manrope-Light.tff</string>
+		<string>Manrope-Medium.tff</string>
+		<string>Manrope-Regular.tff</string>
+		<string>Manrope-SemiBold.tff</string>
+	</array>
 </dict>
 </plist>

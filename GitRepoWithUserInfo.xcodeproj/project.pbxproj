@@ -51,6 +51,17 @@
 		B8E478AB298FEA2700ED6CBE /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478AA298FEA2700ED6CBE /* LaunchView.swift */; };
 		B8E478AD298FEAE700ED6CBE /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478AC298FEAE700ED6CBE /* AppCoordinatorView.swift */; };
 		B8E478B0298FF94000ED6CBE /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478AF298FF94000ED6CBE /* UserDefault+Extension.swift */; };
+		B8E478B22991A16B00ED6CBE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478B12991A16B00ED6CBE /* Color+Extension.swift */; };
+		B8E478B42991AE1200ED6CBE /* ShadowModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478B32991AE1200ED6CBE /* ShadowModifiers.swift */; };
+		B8E478C52991BC6E00ED6CBE /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478C42991BC6E00ED6CBE /* Font+Extension.swift */; };
+		B8E478CD2991C86600ED6CBE /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478C62991C86500ED6CBE /* Manrope-Light.ttf */; };
+		B8E478CE2991C86600ED6CBE /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478C72991C86500ED6CBE /* Manrope-ExtraBold.ttf */; };
+		B8E478CF2991C86600ED6CBE /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478C82991C86500ED6CBE /* Manrope-Bold.ttf */; };
+		B8E478D02991C86600ED6CBE /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478C92991C86500ED6CBE /* Manrope-Medium.ttf */; };
+		B8E478D12991C86600ED6CBE /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478CA2991C86500ED6CBE /* Manrope-Regular.ttf */; };
+		B8E478D22991C86600ED6CBE /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478CB2991C86600ED6CBE /* Manrope-SemiBold.ttf */; };
+		B8E478D32991C86600ED6CBE /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E478CC2991C86600ED6CBE /* Manrope-ExtraLight.ttf */; };
+		B8E478D52991CDA500ED6CBE /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E478D42991CDA500ED6CBE /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +128,17 @@
 		B8E478AA298FEA2700ED6CBE /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		B8E478AC298FEAE700ED6CBE /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 		B8E478AF298FF94000ED6CBE /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		B8E478B12991A16B00ED6CBE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		B8E478B32991AE1200ED6CBE /* ShadowModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowModifiers.swift; sourceTree = "<group>"; };
+		B8E478C42991BC6E00ED6CBE /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		B8E478C62991C86500ED6CBE /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		B8E478C72991C86500ED6CBE /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B8E478C82991C86500ED6CBE /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		B8E478C92991C86500ED6CBE /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		B8E478CA2991C86500ED6CBE /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		B8E478CB2991C86600ED6CBE /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		B8E478CC2991C86600ED6CBE /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B8E478D42991CDA500ED6CBE /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +200,13 @@
 				B8DC8D6F29815AA10053BEEB /* Domain */,
 				B8DC8D8129816AD30053BEEB /* Features */,
 				B8DC8D4029805F5D0053BEEB /* GitRepoWithUserInfoApp.swift */,
+				B8E478C82991C86500ED6CBE /* Manrope-Bold.ttf */,
+				B8E478C72991C86500ED6CBE /* Manrope-ExtraBold.ttf */,
+				B8E478CC2991C86600ED6CBE /* Manrope-ExtraLight.ttf */,
+				B8E478C62991C86500ED6CBE /* Manrope-Light.ttf */,
+				B8E478C92991C86500ED6CBE /* Manrope-Medium.ttf */,
+				B8E478CA2991C86500ED6CBE /* Manrope-Regular.ttf */,
+				B8E478CB2991C86600ED6CBE /* Manrope-SemiBold.ttf */,
 				B8DC8D4229805F5D0053BEEB /* ContentView.swift */,
 				B8DC8D4429805F610053BEEB /* Assets.xcassets */,
 				B8DC8D4629805F610053BEEB /* Preview Content */,
@@ -418,6 +447,10 @@
 			isa = PBXGroup;
 			children = (
 				B8E478AF298FF94000ED6CBE /* UserDefault+Extension.swift */,
+				B8E478B12991A16B00ED6CBE /* Color+Extension.swift */,
+				B8E478B32991AE1200ED6CBE /* ShadowModifiers.swift */,
+				B8E478C42991BC6E00ED6CBE /* Font+Extension.swift */,
+				B8E478D42991CDA500ED6CBE /* UIImage+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -533,8 +566,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E478D02991C86600ED6CBE /* Manrope-Medium.ttf in Resources */,
 				B8DC8D4829805F610053BEEB /* Preview Assets.xcassets in Resources */,
+				B8E478CF2991C86600ED6CBE /* Manrope-Bold.ttf in Resources */,
+				B8E478CE2991C86600ED6CBE /* Manrope-ExtraBold.ttf in Resources */,
+				B8E478CD2991C86600ED6CBE /* Manrope-Light.ttf in Resources */,
 				B8DC8D4529805F610053BEEB /* Assets.xcassets in Resources */,
+				B8E478D22991C86600ED6CBE /* Manrope-SemiBold.ttf in Resources */,
+				B8E478D32991C86600ED6CBE /* Manrope-ExtraLight.ttf in Resources */,
+				B8E478D12991C86600ED6CBE /* Manrope-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +613,7 @@
 				B8DC8DA8298274580053BEEB /* AppConfiguration.swift in Sources */,
 				B8DC8D9629816E090053BEEB /* UserDetailView.swift in Sources */,
 				B8DC8DA0298197E40053BEEB /* UserDetail.swift in Sources */,
+				B8E478B22991A16B00ED6CBE /* Color+Extension.swift in Sources */,
 				B8E478B0298FF94000ED6CBE /* UserDefault+Extension.swift in Sources */,
 				B8DC8DC6298540180053BEEB /* RepositoryCoordinatorView.swift in Sources */,
 				B8DC8DAA298274960053BEEB /* AppDependencies.swift in Sources */,
@@ -580,9 +621,12 @@
 				B8DC8D9E2981975A0053BEEB /* User.swift in Sources */,
 				B8DC8DB42985398F0053BEEB /* PopoverModifier.swift in Sources */,
 				B8DC8D78298168420053BEEB /* GitRepository.swift in Sources */,
+				B8E478B42991AE1200ED6CBE /* ShadowModifiers.swift in Sources */,
+				B8E478C52991BC6E00ED6CBE /* Font+Extension.swift in Sources */,
 				B8DC8DAF29851A690053BEEB /* TabCoordinator.swift in Sources */,
 				B8DC8DC9298540840053BEEB /* UserCoordinatorView.swift in Sources */,
 				B8DC8D8029816A940053BEEB /* GetUserByIdUseCase.swift in Sources */,
+				B8E478D52991CDA500ED6CBE /* UIImage+Extension.swift in Sources */,
 				B8DC8DB2298538C40053BEEB /* View+Navigation.swift in Sources */,
 				B8DC8D7C298169FF0053BEEB /* GetGitRepoUseCase.swift in Sources */,
 				B8DC8D7A298169180053BEEB /* UserRepository.swift in Sources */,
@@ -765,7 +809,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -798,7 +842,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

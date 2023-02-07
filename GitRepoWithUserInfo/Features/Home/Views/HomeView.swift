@@ -17,21 +17,48 @@ struct HomeView: View {
     @EnvironmentObject private var tabCoordinator: TabCoordinator
     
     var body: some View {
-        HStack.init(alignment: .center, spacing: 20) {
-            Button.init {
-                tabCoordinator.tabSelection = .user
-            } label: {
-                Text("Asalam alaykum user here")
+        VStack(alignment: .leading, spacing: 30) {
+            Text("Home")
+                .font(Font.manropeExtraBold(size: 25))
+                
+            HStack(spacing: 10) {
+                homeCard(imgName: "user_icon", text: "Users", color: .hexECF5F8)
+                    .onTapGesture {
+                        tabCoordinator.tabSelection = .user
+                    }
+                
+                homeCard(imgName: "repo_icon", text: "Repositories", color: .hexF6EDF8)
+                    .onTapGesture {
+                        tabCoordinator.tabSelection = .repository
+                    }
             }
-            
-            Button.init {
-                tabCoordinator.tabSelection = .repository
-            } label: {
-                Text("Asalam alaykum repo here")
-            }
+            .frame(maxWidth: .infinity)
+            .frame(height: 100)
+            Spacer()
         }
+        .padding([.leading, .trailing], 18)
+        .background(Color.hexF5F5F5)
+    }
+    
+    @ViewBuilder func homeCard(imgName: String, text: String, color: Color) -> some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 0) {
+                Image(imgName)
+                Spacer()
+                Text(text)
+                    .font(Font.system(size: 16))
+                    .bold()
+            }
+            .padding(10)
+
+            Spacer()
+        }
+        .background(color)
+        .cornerRadius(2)
+        .modifier(HomeCardShadow())
         
     }
+
 }
 
 struct HomeView_Previews: PreviewProvider {
@@ -39,3 +66,6 @@ struct HomeView_Previews: PreviewProvider {
         HomeView(coordinator: HomeCoordinator(dependencies: Dependencies()))
     }
 }
+
+
+

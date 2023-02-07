@@ -12,19 +12,6 @@ struct HomeCoordinatorView: View {
     @StateObject var homeCoordinator: HomeCoordinator
     
     var body: some View {
-        NavigationView {
-            homeCoordinator.showHomeView()
-                .navigationTitle("Home")
-        }
-        
+        homeCoordinator.showHomeView()
     }
 }
-
-//struct HomeCoordinatorView_Previews: PreviewProvider {
-//    static let dd = HomeCoordinator.init()
-//    
-//    static var previews: some View {
-//        HomeCoordinatorView(homeCoordinator: <#HomeCoordinator#>)
-//    }
-//}
-
